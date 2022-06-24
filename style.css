@@ -1,0 +1,44 @@
+body {
+	background-color: #21325E;
+}
+img {
+	width: 60%;
+	height: 60%;
+    display: block;
+    margin-top: -70%;
+    padding: 60%;
+}
+.boxmodel {
+	font-size: 135%;
+	background-color: blueviolet;
+	width: fit-content;
+	margin: auto;
+	margin-top: 30px;
+	padding: 2%;
+	border: 2px solid #21325E;
+	border-radius: 12px;
+}
+h1 {
+	color: white;
+}
+a {
+	padding: 1% 30%;
+	margin: auto;
+	border-radius: 12px;
+	text-decoration: none;
+	background-color: dodgerblue;
+	color: white;
+}
+.boxmod {
+	background-color: blueviolet;
+	width: 25%;
+	margin: auto;
+	margin-top: -130%;
+	padding: 15%;
+	border: 2px solid #21325E;
+	border-radius: 12px;
+	}
+
+script {
+	align-content: center;
+}

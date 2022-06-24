@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>dolboanswer</title>
+</head>
+<body>
+<div class="boxmodel">
+	<h1>ЕБАТЬ, ТЫ ЧЕ СОВСЕМ ПОПУСК? <br>ПРОСТО КРИНЖ...</h1>
+	<a href="index.html">ГЛАВНАЯ</a>
+</div>
+
+<script>
+	 
+
+		let speed = 5
+		let x
+		let y
+
+		function setup() {
+       createCanvas(374, 600)
+       x = width / 20
+       y = height / 2 
+
+		} 
+
+        function draw() { 
+        background(97, 100, 175)
+        ellipse(x+25,y-80, 80, 150)
+        ellipse(x, y, 100) 
+        ellipse(x+50, y, 100)
+          x -= speed
+          y += random(-2, 2)
+      
+       if (x < 0) {
+       	      speed = -5
+       } else if (x > width) {
+       	      speed = 5
+       } 
+
+//x = 5
+//y = height / 2
+//       if (keyIsPressed) {
+ //     console.log('pressed')
+  //    if (keyCode === LEFT_ARROW) x--;
+  //    else if (keyCode === DOWN_ARROW) y++;
+    //  else if (keyCode === RIGHT_ARROW) x++;
+    //  else if (keyCode === UP_ARROW) y--;
+	//}
+//rect(x, y, 50, 50) 
+
+       
+    }
+
+</script>
+
+</body>
+</html>
